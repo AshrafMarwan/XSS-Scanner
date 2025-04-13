@@ -28,3 +28,34 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+
+Usage:
+python xss_scanner.py <URL> [options]
+Example:
+python xss_scanner.py https://example.com -c -m 10 --obey-robots -o result.txt
+Sample Output:
+[+] Detected 2 forms on https://example.com
+[+] XSS Vulnerability Detected on https://example.com
+[*] Payload: <script>alert('XSS')</script>
+🎯 Project Goal
+This project demonstrates practical knowledge in:
+
+Web application testing
+
+Form input analysis
+
+Manual injection testing for XSS
+
+Ethical hacking and web security awareness
+
+Python scripting for offensive security
+🔐 Future Improvements
+Detect DOM-based XSS
+
+Generate HTML reports
+
+Add multi-threading support for faster scans
+👨‍💻 Author
+Name: Ashraf Marwan
+Email: ashrafmarwan954@gmail.com
+Field of Interest: IT Security & Penetration Testing
